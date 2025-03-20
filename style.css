@@ -83,6 +83,7 @@ h1{
     top: 7px;
     right: 11px;
     color: black;
+    /* display: none; */
 }
 .darkmode{
     background-color: black;

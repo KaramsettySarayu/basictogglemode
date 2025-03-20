@@ -6,4 +6,5 @@ const moon = document.getElementById("moon");
 togglein.addEventListener("click",()=>{
         boxContainer.classList.toggle("darkmode");
         togglein.classList.toggle("in");
+        // moon.style.display = none;
 })

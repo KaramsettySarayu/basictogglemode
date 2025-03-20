@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box-container{
+    /* border: 1px solid black; */
+    height: 500px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    position: relative;
+    box-shadow: 0 0 10px grey;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    font-family: "Roboto", sans-serif;
+}
+h1{
+    font-family: "Tektur", sans-serif;
+    color: #f43f5e;
+}
+#username,#password{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 30px;
+}
+#submit{
+    height: 30px;
+    padding: 5px 40px;
+    border-radius: 30px;
+    background-color: #f43f5e;
+    border: 1px solid #f43f5e;
+    color: whitesmoke;
+    font-size: 16px;
+}
+#submit:hover{
+    background-color: white;
+    border: 1px solid #f43f5e;
+    color: #f43f5e;
+}
+#toggleout{
+    width: 65px;
+    background-color: rgb(213, 208, 208);
+    height: 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#togglein{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 50%;
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    cursor: pointer;
+}
+#sun{
+    position: absolute;
+    top: 7px;
+    left: 11px;
+    color: black;
+}
+#moon{
+    position: absolute;
+    top: 7px;
+    right: 11px;
+    color: black;
+}
+.darkmode{
+    background-color: black;
+}
+.in{
+    transform: translateX(30px);
+}
